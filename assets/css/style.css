@@ -77,18 +77,27 @@ margin-right: 20px;
   text-align: center;
   margin-top: 175px;
 }
-@media (max-widths: 980px){
-  .Main-bio {
-    float: left;
-  }
+@media screen and (max-width: 980px){
+  .Main-bio,header,#footer {
+    background-color: red;
+    }
+    #nav{
+      display:none;
+    }
 }
-@media (max-widths: 768px){
-  .Main-bio {
-    float: left;
-  }
+@media screen and (max-width: 768px){
+  .Main-bio,header,#footer {
+    background-color: green;
+    }
+    #nav{
+      display:none;
+    }
 }
-@media (max-widths: 640px){
-  .Main-bio {
-    float: left;
-  }
+@media screen and (max-width: 640px){
+  .Main-bio,header,#footer {
+    background-color:greenyellow;
+    }
+    #nav{
+      display:none;
+    }
 }
